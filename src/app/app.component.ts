@@ -35,8 +35,8 @@ export class AppComponent {
   ];
 
   addArticle() {
-    this.article.title = (<HTMLInputElement> document.getElementById('article-title')).value;
-    this.article.url = (<HTMLInputElement> document.getElementById('article-url')).value;
+    this.article.title =  (document.getElementById('article-title') as HTMLInputElement).value;
+    this.article.url = (document.getElementById('article-url') as HTMLInputElement).value;
     this.articles.push(this.article);
   }
 }
