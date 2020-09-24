@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "news-hacker"
+    }
+  },
+  "defaultProject": "news-hacker",
+  "cli": {
+    "analytics": false
+  }
 }
